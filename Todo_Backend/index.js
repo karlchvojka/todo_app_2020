@@ -26,7 +26,7 @@ const app = express();
 
 app.use(express.json());
 
-app.use('/api', routes);
+app.use('/api/todos', routes);
 
 app.listen(mongoPort, () => {
   console.log(`MongoDB database connection establised succeessfully.`)

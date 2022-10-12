@@ -1,6 +1,6 @@
 {
   "name": "react_template_2022",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Docker Typescript ReactJS Template",
   "main": "index.js",
   "scripts": {

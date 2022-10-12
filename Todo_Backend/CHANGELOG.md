@@ -12,5 +12,15 @@ Initial building
 ### Changed
 
 ### Added
-- Added Front end template folders.
-  - Front end runs in its basic structure.
+- Added basic MongoDB setup and file structure.
+  - Backend server runs.
+- Added Todo Model (/models/todo.model.js)
+- Added Todo Basic Routes (./routes/routes.js)
+  - Main get
+  - Individual get by ID
+  - update individual by ID
+  - Add new
+  - Delete.
+
+### Changed
+- Added Docs to run front and backend
