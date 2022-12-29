@@ -3,6 +3,7 @@ import React from 'react'
 
 // Library Imports
 import { ThemeProvider, createTheme } from '@mui/material/styles'
+import CssBaseline from '@mui/material/CssBaseline'
 
 // Component Imports
 import Header from 'modules/Header/Header'
@@ -14,7 +15,7 @@ import StyledApp from './StyledApp'
 const App = () => {
 
   // METHODS
-  
+
   /**
    * Declares the color mode as dark for Material-UI
    */
@@ -26,6 +27,7 @@ const App = () => {
 
   return (
     <ThemeProvider theme={darkTheme}>
+      <CssBaseline />
       <StyledApp>
         <GlobalStyle />
         <Header />
