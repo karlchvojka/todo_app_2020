@@ -8,10 +8,6 @@ import CssBaseline from '@mui/material/CssBaseline'
 // Component Imports
 import Header from 'modules/Header/Header'
 
-// CSS Imports
-import GlobalStyle from 'src/globalConfig/GlobalStyles'
-import StyledApp from './StyledApp'
-
 const App = () => {
 
   // METHODS
@@ -28,11 +24,8 @@ const App = () => {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      <StyledApp>
-        <GlobalStyle />
-        <Header />
-        <h1>Welcome to The Docker Typescript React App thats build using Webpack and Babel separately</h1>
-      </StyledApp>
+      <Header />
+      <h1>Welcome to The Docker Typescript React App thats build using Webpack and Babel separately</h1>
     </ThemeProvider>
   )
 }

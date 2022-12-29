@@ -30,3 +30,6 @@ Initial building
 
 ### Added
 - Installed Material-UI
+
+### Removed
+- Styled Component support across entire app.
