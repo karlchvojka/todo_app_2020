@@ -11,6 +11,8 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "baseUrl": ".",
+    "noImplicitThis": true,
+    "strictNullChecks": true,
     "paths": {
       "public/*": ["public/*"],
       "elements/*": ["src/components/elements/*"],
