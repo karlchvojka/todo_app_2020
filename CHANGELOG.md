@@ -25,3 +25,8 @@ Initial building
 ## [1.0.1] - 2022-12-27
 ### Changed
 - Updated Readme with better startup instructions for the backend.
+
+## [1.1.1] - 2022-12-28
+
+### Added
+- Installed Material-UI
